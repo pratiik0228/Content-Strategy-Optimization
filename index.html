@@ -1,116 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTENT STRATEGY OPTIMIZATION</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: #FFFFFF;
-            color: #333;
-            line-height: 1.7;
-            font-size: 16px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        h1 {
-            text-align: center;
-            font-size: 2.5rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 60px;
-            letter-spacing: -0.02em;
-        }
-
-        .content {
-            font-size: 16px;
-            line-height: 1.8;
-            text-align: justify;
-            white-space: pre-line;
-        }
-
-        .section-title {
-            display: block;
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin: 2.5rem 0 1.5rem 0;
-        }
-
-        .divider {
-            height: 1px;
-            background: #f0f0f0;
-            margin: 3rem 0;
-            position: relative;
-        }
-
-        .divider::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 8px;
-            height: 8px;
-            background: #e8e8e8;
-            border-radius: 50%;
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-            .content {
-                font-size: 15px;
-                text-align: left;
-            }
-            .section-title {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTENT STRATEGY OPTIMIZATION</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #FFFFFF;
+      color: #000000;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 1.8em;
+      font-weight: bold;
+      border-bottom: 2px solid #eee;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: #ccc;
+      border-radius: 2px;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .decor {
+      border-top: 1px solid #ddd;
+      margin: 30px 0;
+      position: relative;
+    }
+    .decor::before {
+      content: "◆";
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 12px;
+      color: #bbb;
+      background: #fff;
+      padding: 0 5px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      border-top: 2px solid #eee;
+      margin-top: 40px;
+      position: relative;
+    }
+    footer::before {
+      content: "—";
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      color: #bbb;
+      background: #fff;
+      padding: 0 5px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>CONTENT STRATEGY OPTIMIZATION</h1>
-        
-        <div class="content">
-<span class="section-title">Current Situation (Data + Reality)</span>
-Aapka content attention la raha hai, lekin consistency issue hai. Average performance around 25–30k hai, aur kuch reels 1M+ ja rahe hain—jo mainly high-demand topics aur strong curiosity hooks ki wajah se perform kar rahe hain. Matlab abhi growth spikes pe depend hai, ek predictable system pe nahi. 
-
-<div class="divider"></div>
-
-<span class="section-title">Core Problems (Main Gaps)</span>
-Mujhe lagta main issue content ka nahi, audience quality aur retention ka hai. Free tools / OTT type content zyada tar freebie audience attract kar raha hai. Log sirf value leke unfollow kar dete hain, isliye retention weak hai. Comments bhi meaningful nahi hain (sirf emojis), matlab real engagement missing hai. Aur content mixed hone ki wajah se clear niche build nahi ho pa rahi. 
-
-<div class="divider"></div>
-
-<span class="section-title">Algorithm + Audience Issue</span>
-Content mixed hone ki wajah se Instagram algorithm ko clear signal nahi mil raha ki aapka content kis audience ke liye hai. Isliye kabhi reach milti hai, kabhi drop ho jati hai, aur consistent growth nahi ban paati. Saath hi loyal audience tak bhi har reel consistently nahi pahuchti, isliye connection weak ho raha hai. Algorithm ko clarity chahiye hoti hai, aur abhi wo clarity missing lag rahi hai. 
-
-<div class="divider"></div>
-
-<span class="section-title">Clear Direction (Solutions)</span>
-(a) Niche + Content Direction Aapko ek primary niche define karna hoga (jaise AI, tools, growth, etc.) aur majority content usi ke around rakhna hoga. Mixed content rakh sakte ho, but 70–80% content ek clear direction ka hona chahiye. (b) Viral Pattern Repeat Jo reels 1M+ gaye hain unka pattern (topic + hook + value) identify karke consistently repeat karo—isse predictable growth aayegi. (c) Content Quality Upgrade Aapko reels ki overall quality enhance karni hogi— strong hooks (first 2 sec), better visuals/typography, smooth motion & transitions, clean audio/voice clarity, aur better storytelling flow. Content dekhte hi premium feel aana chahiye. (d) Audience Retention Fix Aisa content banao jo sirf link ke liye nahi, long-term follow ke liye ho. Series content (Part 1, Part 2), follow-based value (next part miss ho jayega), aur thoda personal touch add karo. (e) Trust + Monetization Aapko trustworthy positioning build karni hogi—random links ke instead genuine aur relevant tools promote karo. Trust build hoga toh conversions aur income dono improve honge. (f) Content Expansion (Smart Way) Aap apna scope expand kar sakte ho—AI tools, future jobs, tech insights, business stories, growth strategies. But sab ek aligned theme ke andar hona chahiye. 
-
-<div class="divider"></div>
-
-<span class="section-title">Final Insight</span>
-Abhi aapke paas attention hai, but sahi audience aur system nahi hai. Agar aap clarity + consistency + retention pe kaam karte ho, toh aap easily isko strong brand aur income mein convert kar sakte ho. Agar aap chaho toh main isko aur properly structure karke ek clear system bana sakta hoon jo long-term kaam kare.
-        </div>
-    </div>
-</body>
-</html>
+  <header>
+    CONTENT STRATEGY OPTIMIZATION
+  </header>
+  <main>
+    <p>
+      Current Situation (Data + Reality) Aapka content attention
