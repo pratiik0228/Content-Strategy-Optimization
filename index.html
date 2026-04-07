@@ -13,12 +13,11 @@
         }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', sans-serif;
             background: #FFFFFF;
-            color: #333333;
+            color: #333;
             line-height: 1.7;
             font-size: 16px;
-            overflow-x: hidden;
         }
 
         .container {
@@ -27,112 +26,90 @@
             padding: 40px 20px;
         }
 
-        header {
-            text-align: center;
-            margin-bottom: 60px;
-            position: relative;
-        }
-
         h1 {
+            text-align: center;
             font-size: 2.5rem;
             font-weight: 600;
             color: #1a1a1a;
+            margin-bottom: 60px;
             letter-spacing: -0.02em;
         }
 
         .content {
-            position: relative;
-        }
-
-        .content-text {
             font-size: 16px;
             line-height: 1.8;
             text-align: justify;
-            white-space: pre-wrap;
-            margin-bottom: 60px;
+            white-space: pre-line;
         }
 
-        .section-marker {
+        .section-title {
+            display: block;
             font-size: 1.3rem;
             font-weight: 600;
             color: #1a1a1a;
-            margin: 2rem 0 1rem 0;
-            display: inline-block;
+            margin: 2.5rem 0 1.5rem 0;
         }
 
         .divider {
             height: 1px;
-            background: linear-gradient(90deg, transparent, #e5e5e5 50%, transparent);
+            background: #f0f0f0;
             margin: 3rem 0;
+            position: relative;
         }
 
-        .subtle-accent {
+        .divider::before {
+            content: '';
             position: absolute;
-            width: 4px;
-            height: 4px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 8px;
+            height: 8px;
             background: #e8e8e8;
             border-radius: 50%;
-            opacity: 0.5;
         }
 
-        .accent-1 { top: 20%; left: -10px; }
-        .accent-2 { top: 50%; right: -10px; }
-        .accent-3 { bottom: 20%; left: -10px; }
-
         @media (max-width: 768px) {
-            .container {
-                padding: 30px 15px;
-            }
-            
             h1 {
                 font-size: 2rem;
             }
-            
-            .content-text {
+            .content {
                 font-size: 15px;
                 text-align: left;
-                white-space: normal;
             }
-            
-            .section-marker {
+            .section-title {
                 font-size: 1.2rem;
             }
-            
-            .subtle-accent {
-                display: none;
-            }
-        }
-
-        /* Smooth scrolling */
-        html {
-            scroll-behavior: smooth;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>CONTENT STRATEGY OPTIMIZATION</h1>
-        </header>
-
+        <h1>CONTENT STRATEGY OPTIMIZATION</h1>
+        
         <div class="content">
-            <div class="subtle-accent accent-1"></div>
-            <div class="subtle-accent accent-2"></div>
-            <div class="subtle-accent accent-3"></div>
-            
-            <div class="content-text">
-“Current Situation (Data + Reality) Aapka content attention la raha hai, lekin consistency issue hai. Average performance around 25–30k hai, aur kuch reels 1M+ ja rahe hain—jo mainly high-demand topics aur strong curiosity hooks ki wajah se perform kar rahe hain. Matlab abhi growth spikes pe depend hai, ek predictable system pe nahi. 
+<span class="section-title">Current Situation (Data + Reality)</span>
+Aapka content attention la raha hai, lekin consistency issue hai. Average performance around 25–30k hai, aur kuch reels 1M+ ja rahe hain—jo mainly high-demand topics aur strong curiosity hooks ki wajah se perform kar rahe hain. Matlab abhi growth spikes pe depend hai, ek predictable system pe nahi. 
 
-<span class="section-marker">Core Problems (Main Gaps)</span> Mujhe lagta main issue content ka nahi, audience quality aur retention ka hai. Free tools / OTT type content zyada tar freebie audience attract kar raha hai. Log sirf value leke unfollow kar dete hain, isliye retention weak hai. Comments bhi meaningful nahi hain (sirf emojis), matlab real engagement missing hai. Aur content mixed hone ki wajah se clear niche build nahi ho pa rahi. 
+<div class="divider"></div>
 
-<span class="section-marker">Algorithm + Audience Issue</span> Content mixed hone ki wajah se Instagram algorithm ko clear signal nahi mil raha ki aapka content kis audience ke liye hai. Isliye kabhi reach milti hai, kabhi drop ho jati hai, aur consistent growth nahi ban paati. Saath hi loyal audience tak bhi har reel consistently nahi pahuchti, isliye connection weak ho raha hai. Algorithm ko clarity chahiye hoti hai, aur abhi wo clarity missing lag rahi hai. 
+<span class="section-title">Core Problems (Main Gaps)</span>
+Mujhe lagta main issue content ka nahi, audience quality aur retention ka hai. Free tools / OTT type content zyada tar freebie audience attract kar raha hai. Log sirf value leke unfollow kar dete hain, isliye retention weak hai. Comments bhi meaningful nahi hain (sirf emojis), matlab real engagement missing hai. Aur content mixed hone ki wajah se clear niche build nahi ho pa rahi. 
 
-<span class="section-marker">Clear Direction (Solutions)</span> (a) Niche + Content Direction Aapko ek primary niche define karna hoga (jaise AI, tools, growth, etc.) aur majority content usi ke around rakhna hoga. Mixed content rakh sakte ho, but 70–80% content ek clear direction ka hona chahiye. (b) Viral Pattern Repeat Jo reels 1M+ gaye hain unka pattern (topic + hook + value) identify karke consistently repeat karo—isse predictable growth aayegi. (c) Content Quality Upgrade Aapko reels ki overall quality enhance karni hogi— strong hooks (first 2 sec), better visuals/typography, smooth motion & transitions, clean audio/voice clarity, aur better storytelling flow. Content dekhte hi premium feel aana chahiye. (d) Audience Retention Fix Aisa content banao jo sirf link ke liye nahi, long-term follow ke liye ho. Series content (Part 1, Part 2), follow-based value (next part miss ho jayega), aur thoda personal touch add karo. (e) Trust + Monetization Aapko trustworthy positioning build karni hogi—random links ke instead genuine aur relevant tools promote karo. Trust build hoga toh conversions aur income dono improve honge. (f) Content Expansion (Smart Way) Aap apna scope expand kar sakte ho—AI tools, future jobs, tech insights, business stories, growth strategies. But sab ek aligned theme ke andar hona chahiye. 
+<div class="divider"></div>
 
-<span class="section-marker">Final Insight</span> Abhi aapke paas attention hai, but sahi audience aur system nahi hai. Agar aap clarity + consistency + retention pe kaam karte ho, toh aap easily isko strong brand aur income mein convert kar sakte ho. Agar aap chaho toh main isko aur properly structure karke ek clear system bana sakta hoon jo long-term kaam kare.”
-            </div>
+<span class="section-title">Algorithm + Audience Issue</span>
+Content mixed hone ki wajah se Instagram algorithm ko clear signal nahi mil raha ki aapka content kis audience ke liye hai. Isliye kabhi reach milti hai, kabhi drop ho jati hai, aur consistent growth nahi ban paati. Saath hi loyal audience tak bhi har reel consistently nahi pahuchti, isliye connection weak ho raha hai. Algorithm ko clarity chahiye hoti hai, aur abhi wo clarity missing lag rahi hai. 
 
-            <div class="divider"></div>
+<div class="divider"></div>
+
+<span class="section-title">Clear Direction (Solutions)</span>
+(a) Niche + Content Direction Aapko ek primary niche define karna hoga (jaise AI, tools, growth, etc.) aur majority content usi ke around rakhna hoga. Mixed content rakh sakte ho, but 70–80% content ek clear direction ka hona chahiye. (b) Viral Pattern Repeat Jo reels 1M+ gaye hain unka pattern (topic + hook + value) identify karke consistently repeat karo—isse predictable growth aayegi. (c) Content Quality Upgrade Aapko reels ki overall quality enhance karni hogi— strong hooks (first 2 sec), better visuals/typography, smooth motion & transitions, clean audio/voice clarity, aur better storytelling flow. Content dekhte hi premium feel aana chahiye. (d) Audience Retention Fix Aisa content banao jo sirf link ke liye nahi, long-term follow ke liye ho. Series content (Part 1, Part 2), follow-based value (next part miss ho jayega), aur thoda personal touch add karo. (e) Trust + Monetization Aapko trustworthy positioning build karni hogi—random links ke instead genuine aur relevant tools promote karo. Trust build hoga toh conversions aur income dono improve honge. (f) Content Expansion (Smart Way) Aap apna scope expand kar sakte ho—AI tools, future jobs, tech insights, business stories, growth strategies. But sab ek aligned theme ke andar hona chahiye. 
+
+<div class="divider"></div>
+
+<span class="section-title">Final Insight</span>
+Abhi aapke paas attention hai, but sahi audience aur system nahi hai. Agar aap clarity + consistency + retention pe kaam karte ho, toh aap easily isko strong brand aur income mein convert kar sakte ho. Agar aap chaho toh main isko aur properly structure karke ek clear system bana sakta hoon jo long-term kaam kare.
         </div>
     </div>
 </body>
